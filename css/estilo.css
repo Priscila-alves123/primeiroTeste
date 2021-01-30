@@ -1,0 +1,76 @@
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.item {
+    flex: 1 1 auto;
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+nav {
+    background-color: #fff;
+    color: black;
+}
+
+header {
+    background-image: url(/img/background.jpg);
+    background-color: black;
+    height: 50em;
+}
+
+.social-icon {
+    margin-top: 1em;
+}
+
+.box {
+    margin: auto;
+    background-color: #fff;
+    width: 800px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.box-paragrafo {
+    font-size: 20px;
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 4em;
+}
+
+.social-div {
+    text-align: right;
+    margin-right: 2em;
+}
+
+.title-div {
+    text-align: left;
+    margin-left: 2em;
+}
+
+.join-button {
+    background-color: black;
+    color: yellow;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 2em 5em 2em 4em;
+    border-radius: 12px;
+    text-transform: uppercase;
+}
